@@ -150,7 +150,6 @@
     --color-white   : #ffffff;
 
     /*
-    back up
     --color-black   : #000000;
     --color-gray-19 : #020202;
     --color-gray-18 : #040404;
@@ -3428,7 +3427,7 @@ img.u-pull-left {
  * -------------------------------------------------------------------- */
 .about-info {
     --gutter    : 0;
-    width       : 100%;
+    width       : 80%;
     align-items : center;
 }
 
