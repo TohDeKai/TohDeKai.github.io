@@ -95,15 +95,16 @@
     /* color-1(#eabe7c)
      * color-2(#23967f)
      */
-    --color-1 : rgb(226, 53, 53);
+    --color-1 : hsl(0, 75%, 55%);
+    /* ^hex code is #e23535 */
     --color-2 : hsla(168, 62%, 36%, 1);
 
     /* theme color variations
      */
-    --color-1-lighter : hsla(36, 72%, 90%, 1);
-    --color-1-light   : hsla(36, 72%, 80%, 1);
-    --color-1-dark    : hsla(36, 72%, 60%, 1);
-    --color-1-darker  : hsla(36, 72%, 50%, 1);
+    --color-1-lighter : hsl(0, 75%, 70%);
+    --color-1-light   : hsl(0, 75%, 62.5%);
+    --color-1-dark    : hsl(0, 75%, 40%);
+    --color-1-darker  : hsl(0, 75%, 30%);
     --color-2-lighter : hsla(168, 62%, 56%, 1);
     --color-2-light   : hsla(168, 62%, 46%, 1);
     --color-2-dark    : hsla(168, 62%, 26%, 1);
@@ -183,9 +184,9 @@
     /* buttons
      */
     --color-btn                    : var(--color-gray-9);
-    --color-btn-text               : var(--color-1);
+    --color-btn-text               : var(--color-1-light);
     --color-btn-hover              : var(--color-white);
-    --color-btn-hover-text         : var(--color-black);
+    --color-btn-hover-text         : var(--color-1-darker);
     --color-btn-primary            : var(--color-1-dark);
     --color-btn-primary-text       : var(--color-black);
     --color-btn-primary-hover      : var(--color-1-darker);
