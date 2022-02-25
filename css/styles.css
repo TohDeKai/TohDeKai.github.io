@@ -3891,6 +3891,12 @@ img.u-pull-left {
     color            : white;
 }
 
+.modal-popup__details2:focus,
+.modal-popup__details2:hover {
+    background-color : var(--color-body);
+    color            : white;
+}
+
 /* ------------------------------------------------------------------- 
  * ## testimonials
  * ------------------------------------------------------------------- */
