@@ -4047,36 +4047,12 @@ img.u-pull-left {
 }
 
 @media screen and (max-width: 400px) {
-    .folio-list .column {
-        flex  : none;
-        width : 50%;
+    .folio-list__item-title {
+        font-size: var(--text--sm);
     }
 
-    .folio-list__item {
-        margin-bottom : 0;
-    }
-
-    .folio-list__item-link {
-        padding-left : 0;
-    }
-
-    .folio-list__item-pic {
-        position : static;
-    }
-
-    .folio-list__item-pic img {
-        max-width : 100%;
-        width     : 100%;
-        height    : auto;
-    }
-
-    .folio-list__item-text,
-    .folio-list__proj-link {
-        display : none;
-    }
-
-    .modal-popup__desc {
-        padding : 0 var(--vspace-1) var(--vspace-0_25);
+    .folio-list__item-cat {
+        font-size: var(--text--xs);
     }
 }
 
