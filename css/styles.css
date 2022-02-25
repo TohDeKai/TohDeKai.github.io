@@ -3552,6 +3552,25 @@ img.u-pull-left {
     margin-top     : -.2rem;
 }
 
+#edu_image img {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    border-radius: 10px;
+}
+
+#edu_image:hover img {
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+}
+
 /* ------------------------------------------------------------------- 
  * responsive:
  * about
@@ -3594,6 +3613,21 @@ img.u-pull-left {
 
     .about-info__pic-block {
         text-align: center;
+    }
+
+    #edu_image img {
+        filter: none;
+        -webkit-filter: none;
+        -moz-filter: none;
+        transition: none;
+        -webkit-transition: none;
+        -moz-transition: none;
+    }
+    
+    #edu_image:hover img {
+        transform: none;
+        -webkit-transform: none;
+        -moz-transform: none;
     }
 }
 
