@@ -3898,7 +3898,7 @@ img.u-pull-left {
 }
 
 .modal-popup__details {
-    background-color : rgba(0, 0, 0, 0.3);
+    background-color : rgba(179, 25, 25, 0.5);
     font-size        : var(--text-xs);
     line-height      : var(--vspace-1_25);
     color            : white;
@@ -3909,7 +3909,7 @@ img.u-pull-left {
 }
 
 .modal-popup__details2 {
-    background-color : rgba(0, 0, 0, 0.3);
+    background-color : rgba(179, 25, 25, 0.5);
     font-size        : var(--text-xs);
     line-height      : var(--vspace-1_25);
     color            : white;
@@ -3921,13 +3921,13 @@ img.u-pull-left {
 
 .modal-popup__details:focus,
 .modal-popup__details:hover {
-    background-color : var(--color-body);
+    background-color : var(--color-1-dark);
     color            : white;
 }
 
 .modal-popup__details2:focus,
 .modal-popup__details2:hover {
-    background-color : var(--color-body);
+    background-color : var(--color-1-dark);
     color            : white;
 }
 
